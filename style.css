@@ -1,4 +1,148 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+}
 img {
-    width: 10%;
-    height: 10%;
+    width: 40%;
+    height: 180px;
+    border-radius: 10px;
+}
+header, ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 0;
+}
+
+ul{
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+header, footer, h1, h2{
+    background-color: #1f2937;
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 100px 200px;
+}
+.hero p, .hero div{
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 400px;
+}
+.hero button{
+    background-color: #3882f6;
+    border-radius : 4px;
+    border: none;
+    padding: 4px 30px;
+}
+.content{
+    width: 40%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:  #f9faf8;
+}
+h3{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    margin: 40px 0;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+figure{
+    height: 30%;
+    width: 15%;
+    text-align: center;
+}
+.product .pic, .pic img{
+    width: 100%;
+    height: 50%;
+    padding: 4px;
+    border:2px solid #3882f6;
+    border-radius: 8px;
+}
+.pic img{
+    border-radius: 10px;
+    border: none;
+    padding: auto;
+}
+figcaption{
+    margin: 10px 0;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    margin-top: 100px;
+}
+.quote article{
+    height: 100%;
+    width: 100%;
+    padding: 60px 20px;
+    margin: 0 100px;
+}
+article figure{
+    height: 100%;
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+article figcaption{
+    float: right;
+    font-weight: bold;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.action{
+    background-color: #3882f6;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+.action button{
+    background: none;
+    border: 1.5px solid #f9faf8;
+    border-radius : 4px;
+    padding: 2px 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
